@@ -1,0 +1,8 @@
+{
+  "Name":"Sample Template",
+  "Description": "Should include main libraries and stack info",
+  "Author": "Chris M-F'n Perez",
+  "License": "MIT",
+  "Version": "0.1.0",
+  "Languages": ["JavaScript", "CSS", "HTML"]
+}
