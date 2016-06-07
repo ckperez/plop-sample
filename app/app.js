@@ -11,7 +11,8 @@ vorpal.command('install [template_repo_url] [rename]', 'clones a plop template f
     let template = args.template_repo_url;
     let rename = args.rename;
     //if stuff?
-    GIT.Clone(template, process.env.HOME + '/.config/plop/' + rename);
+    //TODO: clone stuff without .git
+    GIT.Clone(template, process.env.HOME + '/.config/plop/' + rename); /* IGNORE .git!!! */
     callback();
     //error handling prompt for existing template overwrite.
   });
